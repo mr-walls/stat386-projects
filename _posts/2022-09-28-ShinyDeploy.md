@@ -18,7 +18,7 @@ in the minority here, but this has happened to me several times.
 Not like I can blame them, nor do I blame you for not trying to assess what the following console output is, even if it
 is just a sort.
 
-![Some bad console output](../assets/images/consoleoutputyucky.png)
+![Some bad console output](/assets/images/consoleoutputyucky.png)
 
 When you take time to format code into a more readable webpage
 and put it out there for people to see, people can get just as excited for your
@@ -54,12 +54,12 @@ Create a new project, and when you go to create your first file, select
 Shiny Web App. Shiny is a framework developed by the RStudio team, so
 support for the framework is built-in to RStudio by default.
 
-![Creation menu](../assets/images/webappcreate.png)
+![Creation menu](/assets/images/webappcreate.png)
 
 Clicking on this option will bring up a dialog box. Give your application
 a name and select "single file"
 
-![Single File Select](../assets/images/exampleappcreate.png)
+![Single File Select](/assets/images/exampleappcreate.png)
 
 Basically, the Shiny framework requires you to define two things:
 a ui object to handle the looks, and a server object to handle the data.
@@ -73,7 +73,7 @@ from some guy's blog makes you uncomfortable (which is valid!).
 [app.r](https://drive.google.com/file/d/1eNkzzPRSAhfghCoviLT8bMj9JFOzRsf_/view?usp=sharing)
 [npc_generate.r](https://drive.google.com/file/d/17ycHmn0Pg9FSlysiyBZ8Z_MuR1vTXC86/view?usp=sharing)
 
-#app.r
+# app.r
 
 ```
 library(shiny)
@@ -116,7 +116,7 @@ shinyApp(ui = ui, server = server)
 ```
 
 
-#npc_generate.r
+# npc_generate.r
 ```
 library(httr)
 library(jsonlite)
@@ -173,7 +173,7 @@ was put it all into self-contained functions.
 
 Place these two files into your new project directory. Your file structure should look like this:
 
-![Files](../assets/images/filestructrue.png)
+![Files](/assets/images/filestructrue.png)
 
 If you decide to make some changes and test things out, make sure app.js
 remains in the root directory of your project, otherwise R files will be missing
@@ -181,14 +181,14 @@ when you put the code online.
 Set your working directory to the folder with these two files and run
 app.R. If everything worked you should see the following app:
 
-![Web App screen](../assets/images/sampleapp.png)
+![Web App screen](/assets/images/sampleapp.png)
 
 Click on that Generate NPC button and those data fields will autofill
 with information.
 
 Let's get it on the web.
 
-#Deploying with Shinyapps.io
+# Deploying with Shinyapps.io
 
 The hard part is over! With a free account at [Shinyapps.io]("https://www.shinyapps.io/)
 you can have up to 5 different applications online, with 25 hours per month of active usage.
@@ -213,7 +213,7 @@ where you can view the application. You can delete the application from
 the dashboard where you got your token and secret. My version, with updates in the future,
 will remain live [here](https://mr-walls.shinyapps.io/testshinywebapp/) for the foreseeable future.
 
-##Learning More
+## Learning More
 
 Ready for a deeper dive into how to develop an application?
 
