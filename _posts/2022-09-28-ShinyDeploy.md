@@ -18,7 +18,7 @@ in the minority here, but this has happened to me several times.
 Not like I can blame them, nor do I blame you for not trying to assess what the following console output is, even if it
 is just a sort.
 
-![Some bad console output](/assets/images/consoleoutputyucky.png)
+![Some bad console output](https://github.com/mr-walls/stat386-projects/raw/main/assets/images/consoleoutputyucky.png)
 
 When you take time to format code into a more readable webpage
 and put it out there for people to see, people can get just as excited for your
@@ -54,12 +54,12 @@ Create a new project, and when you go to create your first file, select
 Shiny Web App. Shiny is a framework developed by the RStudio team, so
 support for the framework is built-in to RStudio by default.
 
-![Creation menu](/assets/images/webappcreate.png)
+![Creation menu](https://github.com/mr-walls/stat386-projects/raw/main/assets/images/webappcreate.png)
 
 Clicking on this option will bring up a dialog box. Give your application
 a name and select "single file"
 
-![Single File Select](/assets/images/exampleappcreate.png)
+![Single File Select](https://github.com/mr-walls/stat386-projects/raw/main/assets/images/exampleappcreate.png)
 
 Basically, the Shiny framework requires you to define two things:
 a ui object to handle the looks, and a server object to handle the data.
@@ -173,7 +173,7 @@ was put it all into self-contained functions.
 
 Place these two files into your new project directory. Your file structure should look like this:
 
-![Files](/assets/images/filestructrue.png)
+![Files](https://github.com/mr-walls/stat386-projects/raw/main/assets/images/filestructrue.png)
 
 If you decide to make some changes and test things out, make sure app.js
 remains in the root directory of your project, otherwise R files will be missing
@@ -181,7 +181,7 @@ when you put the code online.
 Set your working directory to the folder with these two files and run
 app.R. If everything worked you should see the following app:
 
-![Web App screen](/assets/images/sampleapp.png)
+![Web App screen](https://github.com/mr-walls/stat386-projects/raw/main/assets/images/sampleapp.png)
 
 Click on that Generate NPC button and those data fields will autofill
 with information.
