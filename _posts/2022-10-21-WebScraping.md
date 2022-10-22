@@ -14,7 +14,9 @@ fetched a six figure winning bid at auction. One piece of cardboard;
 over 400,000 dollars. This is an extreme example, but it serves to show
 how collectible markets can get out of hand.
 
-![Charizard](https://github.com/mr-walls/stat386-projects/raw/main/assets/images/money.jpg)  <b>Pictured: more money than I have ever made</b>
+![Charizard](https://github.com/mr-walls/stat386-projects/raw/main/assets/images/money.jpg)  
+
+<b>Pictured: something close, but not quite the 400k card</b>
 
 I personally play a trading card game like Pokemon, called Yu-Gi-Oh.
 Seeing as I'm blogging about statistics, I'm going to assume the nerdy stuff is
